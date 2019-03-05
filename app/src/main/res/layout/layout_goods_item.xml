@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.recker.flybanner.FlyBanner
+        android:id="@+id/banner_shopshow"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginTop="10dp" />
+    <TextView
+        android:id="@+id/shopshow_name"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="商品详情:"/>
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="商品介绍"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/shopcar_add"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="150dp"
+        android:background="@mipmap/shopcar_add"
+        android:layout_alignParentRight="true" />
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/dree_shopshow"
+            android:layout_width="150dp"
+            app:roundedCornerRadius="20dp"
+            android:layout_height="150dp" />
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/t1_shopshow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="123"/>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:id="@+id/t2_shopshow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="123"/>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:id="@+id/t3_shopshow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="123"/>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:id="@+id/t4_shopshow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="123"/>
+        </LinearLayout>
+    </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff">
+    <TextView
+        android:id="@+id/tvrx_rx"
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_30"
+        android:textSize="@dimen/sp_16"
+        android:background="@mipmap/pzsh_bg"
+        android:textColor="#FF991BD8"
+        android:gravity="center"
+        android:text="品质生活"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recy_pz"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</com.zhy.autolayout.AutoLinearLayout>

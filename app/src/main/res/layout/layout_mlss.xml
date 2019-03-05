@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff">
+    <TextView
+        android:id="@+id/tvrx_rx"
+        android:layout_marginTop="@dimen/dp_30"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_30"
+        android:textSize="@dimen/sp_16"
+        android:background="@mipmap/mlss_bg"
+        android:gravity="center"
+        android:textColor="#D81B60"
+        android:text="魔力时尚"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recy_ml"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</com.zhy.autolayout.AutoLinearLayout>
